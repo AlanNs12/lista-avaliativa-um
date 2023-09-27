@@ -14,7 +14,7 @@ int main() {
             soma += numero % 10;
             numero /= 10;
         }
-    printf("A soma dos algarismos de %d eh %d \n", numeros, soma);
+    printf("A soma dos algarismos de %d eh %d \n", numero, soma);
 
     return 0;
 }
